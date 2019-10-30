@@ -1,0 +1,42 @@
+README
+written by Andrew Steinbrueck
+
+1.  Random number generator java class "Random" using this equation to get random number:
+
+rnew = ((P1 ⇤ rold) + P2) mod M
+
+where M, P1, and P2 are large, constant prime numbers
+
+and random numbers generated are greater than or equal to 0 and less than M
+
+rold = seed value and is calculated using previous random number generated
+
+seed is hardcoded but could be produced using System.currentTimeMillis() as well
+
+
+2.  Determines if a number is prime number (true or false) as well as MersennePrime where
+
+	MerseneePrime = 2^k - 1 for some integer k.
+	
+	Other prime number functions included such as returning an array of the first n number
+	
+	of primes, finding the nth prime number, and finding the prime factorization of numbers.
+	
+Design:
+
+-Random.java class
+ 
+-Prime.java  class
+
+-Application.java
+
+
+To Run in terminal:
+
+javac (compile) all necessary classes first that are not main application
+
+> javac Application.java
+
+> java Application
+ 
+ 

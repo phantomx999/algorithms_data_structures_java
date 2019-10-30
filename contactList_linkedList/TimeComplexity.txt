@@ -1,0 +1,135 @@
+Time Complexity
+Array Contact List vs. Linked List Contact List)
+
+Method: add()
+Array - n is the size of the array.  Best case O(1) where list is full and
+number of contacts is checked and equals the length of list, then null is
+returned and only two operations are performed which is O(1) since its constant.
+Another preferable scenario is when list is empty
+and ptr is already pointing to null, and counter starts at null, contact is added 
+and then ptr points to this contact, then there are only a couple operations involved. 
+Worst case is when array length is large and array is one less than full 
+and is then O(n). Then the index counter has to start from beginning of list,
+traverse all the way down to end of list, and either reach null or reach last 
+open spot, add contact, then point to contact.  Average case is O(n),
+especially for larger array sizes.
+Project 2 LinkedList - n is the size of the list as well.  Best cases are when
+list is already full (check number of nodes and compare to list size length, 
+then return null), check if passed in contact is null (bad data), or when
+list is empty, check root.getNext() is null, and then simply add in node and
+set ptr to this node.  All of these only take a couple operations and
+are constants, O(1).  Worst case is when list size is very big with lots of contacts,
+especially when list is 1 less than full and ptr is at beginning of list.
+Then the ptr has to traverse entire list and then add in contact, which is
+O(n).  Average case is  O(n), especially for larger size lists with 
+lots of contacts
+
+Method: find()
+Array: n is size of array.  Best case is when the ptr is already pointing to first
+contact, then it just returns this contact which would be O(1).  Or when
+array is empty or very short length which is close to O(1). Worst case is when
+string passed in is not in array and ptr has to traverse a large array of contacts, 
+possibly wrap around to beginning, and then keep traveling up indexes until it reaches
+the original ptr, and then return null.  This would be O(n).  A similar case is when
+the contact found is to the left of the first index searched, and the ptr has to wrap
+around finally get to that index, which is pretty much O(n) as well.  Average is 
+close to O(n) for larger arrays with contacts, and O(1) for small length arrays.
+Linked List: n is list size.  Best case is when list is empty and ptr is already pointing
+to null, then its O(n), or when the string found is only a couple nodes down the list from
+where ptr started (O(n)).  Worst case is O(n) and either string isnt in large length list
+so ptr has to traverse entire list and possibly wrap around.  Or when string is to the 
+left of ptr and ptr has to go around and wrap before getting to this string, which
+are O(n) cases.  Average case is O(n).
+
+Method: remove()
+Array: n is size of the array.
+Linked List: n in the size of list.  Best case is only a couple operations and is 
+therefore O(1), such as when list is empty or only contains 1 node.  Simply return null
+or this first node and set the next before it to point to null.  Worst case is when ptr is
+at the very end of long list pointing to last node, and then previous ptr starts at
+root and goes all the ways down to right before ptr, and then previous next points to 
+null, the ptr contact in node is returned, and then ptr has to point to the next node, 
+which is the first node in list so it wraps around to front of list.  This is
+O(n) for larger sized lists.  Average case is O(n).    
+
+Method: write()
+Array: This is O(n) for average/worst cases, where n is the size of the array.  It simply
+goes through the array and writes out each contact into the file
+Linked List: This is also O(n), where n is the size of the list.  Not considering 
+special cases such as empty lists, the contacts of each node are written into the file.
+The file is then n contacts long, so it's O(n).
+
+Method: read()
+Array: This is most likely O(n^2), where n is either the number of
+lines to be read from the file and put into the array, or the size of the array.
+Once there is no text on a line then the algorithm goes to the next line, and if 
+there is no text on this line, then the algorithm is finished reading in the file data.
+However, the algorithm also ends if there are more contacts to be read in than the size of 
+the array.  Therefore, we can conclude that at worst, this part of the method
+is O(n), where n is the size of the array, since we cant read
+in more contacts the length of the array.  Next, the add method is called
+and this read in contact data must now be added into the array (where add() was
+already previously determined as O(n) for average/worst cases), thus it's O(n^2) since we can
+multiply n * n for average and best case scenarios.  Sunny day scenarios the list
+is already full so no data can be read into file, which would be O(1).    
+Linked List:  This is also O(n^2) for average/worst case scenarios, where n is the
+size of the list length.  Only a number of contacts of n size can be read into
+a list with no contacts at the given moment, and then the add() method is called
+which was already determined as O(n) previously.  So n*n makes it O(n^2) as well.
+Of course, there are special exceptions where list is already full or size is 0, where
+it is O(1).
+
+Method: getCurrent()
+Array: This is O(1), since ptr simply returns the contact it already points to.  If 
+array is empty or ptr is not pointing to anything, then it returns null, which
+is still O(1).  All cases are O(1).
+Linked List:  This is O(1).  Simply check is list is empty and return null, or
+if not empty, simply return ptr contact node.  All cases O(1).
+
+Method: get()
+Array: This is always O(1), because ptr can be assigned to the desired index.  Same for
+exceptions like empty list or when index is out of bounds, then it just returns null.
+So worst case scenarios are only two operations of assigning the ptr to the index
+anywhere desire in the array, and then return the contact of that index.  This is
+still O(1).
+Linked List:  Highly variable.  If the list is empty, or index is not in list, then its O(1), 
+or when the index is is at the beginning of the list, then the pointer only has
+to move down a few nodes and return this index contact.  However, if the index is at the
+end of the list, then the pointer has to traverse the entire list to get to index and
+return contact.  This would be O(n), and would be worst case and average case, where
+n is size of list. 
+
+Method: next()
+Array: Simply increment the ptr and return contact of this ptr, so its O(1) for all
+scenarios. Even when ptr gets to end of array, just assign it to index 0 of array
+which is still O(1).  Same for empty lists - O(1).
+Linked List: O(1), because the list is either empty and returns null, or the ptr just
+moves over to next node (or wraps around to first node if at end of list) and then returns
+contact.  Worse case and average case are still only O(1), since ptr doesnt need to traverse
+list.
+
+Method: previous()
+Array: This will be O(1), because the pointer simply gets decremented and then returns the
+contact at the previous index.  Even starting at index 0, the ptr is just assigned to
+index array.length - 1, which is just one operation, so this method is only O(1) (including
+special case scenarios like empty list).
+Linked List: O(1) when list is empty return null, or when ptr is at second node of list,
+because the temp pointer is already at the previous node and returns node contact. 
+However, if the ptr is at the first node or the very last node in list, then temp pointer
+has to traverse to the end of the list and return previous node contact before the ptr.
+n is the size of list, and its O(n) for average and worst case scenarios, O(1) for best
+case scenarios.  
+
+Method: sort()
+Array: I used insertion sort, which is O(n) for best case scenarios where array is
+almost already sorted, and worst/average case scenarios O(n^2).  n is the size of the
+array.  In these average/worst case scenarios, there are two for loops, where the array
+of n length has to be traverse n times, so it's n^2.  
+Linked List:  I once again used insertion sort, which for best case scenarios is O(n), where
+n is the size of list.  In this case, the list is pretty much almost already sorted and 
+so the loop only has to go through the list once, so this would be O(n).  However,
+for lists that require a lot of sorting, then its essentially O(n^2), where n is still
+the size of the list.  Its O(n^2) because it has to traverse the n sized list n times, 
+so its n * n = n^2.  This is worst and average case scenarios.  Of course, there is always
+the default scenarios of list being empty or only having one node, in which case the
+time complexity is O(1), which is the exception.    

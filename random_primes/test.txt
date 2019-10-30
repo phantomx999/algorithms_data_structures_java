@@ -1,0 +1,251 @@
+M value is: 102611
+
+Seed is: 97
+Random number: 12792
+Random number: 88328
+Random number: 35782
+Random number: 11613
+Random number: 89428
+Random number: 24747
+Random number: 50020
+
+Seed is: 45598
+Random number: 67990
+Random number: 78430
+Random number: 48324
+Random number: 4263
+Random number: 65215
+Random number: 61959
+Random number: 33056
+
+Seed is: 97
+Random number: 12792
+Random number: 88328
+Random number: 35782
+Random number: 11613
+Random number: 89428
+Random number: 24747
+Random number: 50020
+
+Seed is: 45598
+Random number: 67990
+Random number: 78430
+Random number: 48324
+Random number: 4263
+Random number: 65215
+Random number: 61959
+Random number: 33056
+
+Seed is: 0
+Random number: 65537
+Random number: 46602
+Random number: 15008
+Random number: 90351
+Random number: 48603
+Random number: 58833
+Random number: 7513
+
+Seed is: 1
+Random number: 73456
+Random number: 61842
+Random number: 30032
+Random number: 36647
+Random number: 89222
+Random number: 35209
+Random number: 91521
+
+Seed is: -31
+Random number: -77341
+Random number: -15394
+Random number: -40292
+Random number: -91823
+Random number: -81865
+Random number: -29711
+Random number: -31460
+
+M value is: 102611
+
+Seed is: 99998
+Even numbers = true. 100612 is even, Random Boolean: true
+Even numbers = true. 37550 is even, Random Boolean: true
+Odd numbers = false. 57309 is odd, Random Boolean: false
+Odd numbers = false. 47055 is odd, Random Boolean: false
+Even numbers = true. 10930 is even, Random Boolean: true
+Odd numbers = false. 16523 is odd, Random Boolean: false
+Odd numbers = false. 82149 is odd, Random Boolean: false
+Even numbers = true. 49728 is even, Random Boolean: true
+Odd numbers = false. 40551 is odd, Random Boolean: false
+Even numbers = true. 16476 is even, Random Boolean: true
+Odd numbers = false. 17789 is odd, Random Boolean: false
+Odd numbers = false. 51725 is odd, Random Boolean: false
+Even numbers = true. 52700 is even, Random Boolean: true
+Even numbers = true. 77900 is even, Random Boolean: true
+Odd numbers = false. 58305 is odd, Random Boolean: false
+
+Random int between 1 and 5:  2
+Random int between 1 and 5:  1
+Random int between 1 and 5:  5
+Random int between 1 and 5:  3
+Random int between 1 and 5:  4
+Random int between 1 and 5:  1
+Random int between 1 and 5:  3
+Random int between 1 and 5:  1
+Random int between 1 and 5:  5
+Random int between 1 and 5:  2
+
+Random int between 95 and 100:  99
+Random int between 95 and 100:  97
+Random int between 95 and 100:  98
+Random int between 95 and 100:  97
+Random int between 95 and 100:  95
+Random int between 95 and 100:  99
+Random int between 95 and 100:  100
+Random int between 95 and 100:  97
+Random int between 95 and 100:  100
+Random int between 95 and 100:  95
+
+Random int between -2 and 1:  0
+Random int between -2 and 1:  -1
+Random int between -2 and 1:  -2
+Random int between -2 and 1:  -2
+Random int between -2 and 1:  -1
+Random int between -2 and 1:  1
+Random int between -2 and 1:  -2
+Random int between -2 and 1:  1
+Random int between -2 and 1:  0
+Random int between -2 and 1:  1
+
+Random int between 0 and 2:  1
+Random int between 0 and 2:  0
+Random int between 0 and 2:  2
+Random int between 0 and 2:  2
+Random int between 0 and 2:  2
+Random int between 0 and 2:  1
+Random int between 0 and 2:  2
+Random int between 0 and 2:  1
+Random int between 0 and 2:  2
+Random int between 0 and 2:  2
+
+Random int between 1 and 5:  2
+Random int between 1 and 5:  3
+Random int between 1 and 5:  1
+Random int between 1 and 5:  1
+Random int between 1 and 5:  1
+Random int between 1 and 5:  2
+Random int between 1 and 5:  3
+Random int between 1 and 5:  5
+Random int between 1 and 5:  2
+Random int between 1 and 5:  3
+
+upper range 9999 = lower range 9999:  9999
+upper range 9999 = lower range 9999:  9999
+upper range 9999 = lower range 9999:  9999
+
+Random double between 1.0 and 5.0: 1.177904902983111
+Random double between 1.0 and 5.0: 3.0223952597674715
+Random double between 1.0 and 5.0: 4.541530635117093
+Random double between 1.0 and 5.0: 4.574568028768845
+Random double between 1.0 and 5.0: 1.1976883569987624
+Random double between 1.0 and 5.0: 4.6875676097104595
+Random double between 1.0 and 5.0: 1.0413698336435664
+Random double between 1.0 and 5.0: 1.801181159914629
+Random double between 1.0 and 5.0: 3.7470739004590152
+Random double between 1.0 and 5.0: 3.2716862714523782
+
+Random double between 20.0 and 30.0: 25.889514769371704
+Random double between 20.0 and 30.0: 26.093089434855912
+Random double between 20.0 and 30.0: 21.200865404293886
+Random double between 20.0 and 30.0: 21.67876738361384
+Random double between 20.0 and 30.0: 22.184541618345012
+Random double between 20.0 and 30.0: 23.41070645447369
+Random double between 20.0 and 30.0: 20.410043757491888
+Random double between 20.0 and 30.0: 29.16214635857754
+Random double between 20.0 and 30.0: 26.06264435586828
+Random double between 20.0 and 30.0: 22.106284901228914
+
+Random double between -3.0 and 0.0: -0.5353909424915457
+Random double between -3.0 and 0.0: -0.5413162331523909
+Random double between -3.0 and 0.0: -2.128475504575533
+Random double between -3.0 and 0.0: -2.842745904435197
+Random double between -3.0 and 0.0: -0.6309362543976769
+Random double between -3.0 and 0.0: -0.6518696825876367
+Random double between -3.0 and 0.0: -1.6012415822864996
+Random double between -3.0 and 0.0: -0.10506670824765374
+Random double between -3.0 and 0.0: -2.39998635623861
+Random double between -3.0 and 0.0: -0.9371802243424194
+
+Random double between 1.0 and 5.0: 3.53072282698736
+Random double between 1.0 and 5.0: 4.987535449415755
+Random double between 1.0 and 5.0: 1.4866924598727231
+Random double between 1.0 and 5.0: 3.3110582686066796
+Random double between 1.0 and 5.0: 3.798822738302911
+Random double between 1.0 and 5.0: 3.070733157263841
+Random double between 1.0 and 5.0: 2.3293409088694195
+Random double between 1.0 and 5.0: 1.2441258734443676
+Random double between 1.0 and 5.0: 2.426260342458411
+Random double between 1.0 and 5.0: 3.7491204646675307
+
+Random int between -1 and 1:  1
+Random int between -1 and 1:  1
+Random int between -1 and 1:  1
+Random int between -1 and 1:  -1
+Random int between -1 and 1:  1
+Random int between -1 and 1:  0
+Random int between -1 and 1:  1
+Random int between -1 and 1:  -1
+Random int between -1 and 1:  0
+Random int between -1 and 1:  -1
+
+upper range 1.0 = lower range 1.0:  1.0
+upper range 1.0 = lower range 1.0:  1.0
+upper range 1.0 = lower range 1.0:  1.0
+
+Even numbers = true. 45366 is even, Random Boolean: true
+M value has not been changed this whole time, M value is: 102611
+
+1 is a prime number: false
+2 is a prime number: true
+0  is a prime number: false
+-1 is a prime number: false
+7 is a prime number: true
+8 is a prime number: false
+19 is a prime number: true
+102611 is a prime number: true
+
+3 is a Mersenne number? true
+4 is a Mersenne number? false
+7 is a Mersenne number? true
+31 is a Mersenne number? true
+63 is a Mersenne number? false
+127 is a Mersenne number? true
+1 is a Mersenne number? false
+0 is a Mersenne number? false
+-1 is a Mersenne number? false
+11 is a Mersenne number? false
+
+Inputted Number -1 less than 1, return -1
+Inputted Number 0 less than 1, return -1
+#1 prime number is: 2
+#2 prime number is: 3
+#3 prime number is: 5
+#4 prime number is: 7
+#539 prime number is: 3889
+#9999 prime number is: 104723
+#10000 prime number is: 104729
+#99999 prime number is: 1299689
+
+Inputted Number -3 less than 1, return null
+Inputted Number 0 less than 1, return null
+First 1 prime numbers are: 2 
+First 5 prime numbers are: 2 3 5 7 11 
+First 10 prime numbers are: 2 3 5 7 11 13 17 19 23 29 
+First 100 prime numbers are: 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 101 103 107 109 113 127 131 137 139 149 151 157 163 167 173 179 181 191 193 197 199 211 223 227 229 233 239 241 251 257 263 269 271 277 281 283 293 307 311 313 317 331 337 347 349 353 359 367 373 379 383 389 397 401 409 419 421 431 433 439 443 449 457 461 463 467 479 487 491 499 503 509 521 523 541 
+
+The prime factorization of 630 is: [ 2 3 3 5 7 ]
+The prime factorization of 7 is: [ 7 ]
+The prime factorization of 3567 is: [ 3 29 41 ]
+The prime factorization of 786954 is: [ 2 3 7 41 457 ]
+The prime factorization of 102611 is: [ 102611 ]
+The prime factorization of 9900 is: [ 2 2 3 3 5 5 11 ]
+The number 0 is less than/equal to 1, return null
+The number 1 is less than/equal to 1, return null

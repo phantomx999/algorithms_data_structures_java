@@ -1,0 +1,56 @@
+README
+//written by phantomx999
+
+Binary Search Tree (BST)
+
+Tree Nodes with numerical values less or equal to parent value on the left branch while 
+numerical values greater than parent on the right branch.
+
+functions:
+size() - number of nodes in the tree
+
+add(int value) - Inserts a new node in the tree with the given value
+
+get(int i) - Retrieves the value of the node at the given index.
+
+set(int i, int value) - Sets the value of the node at the given index to
+value.
+
+remove(int i) - Removes the node at the given index and returns its value. 
+-leaf nodes are removed normally
+-nodes with one child are removed and child node replaces index of removed parent node.
+-nodes with two children has largest element in the left subtree of original node replace
+it.   Original node is deleted, largest element subtree node replaces it, and largest
+element subtree original position is deleted.
+
+toArray() - creates and returns a sorted array using the values
+from the tree
+
+toBinaryTree(int[] array) - takes a sorted int
+array as input and converts it to a binary search tree. 
+
+toBalancedBinaryTree(int[] array) - takes a sorted array and converts it to a
+balanced binary tree (or most balanced binary tree possible given the original tree)
+
+depth() - calculates the longest depth (height) of the binary search tree. 
+
+print() - outputs data of tree in printed tree format, used for debugging and testing
+(did not write this method, gave credit to stack overflow author in comments).
+
+DESIGN:
+-TreeNode class that contains node value and left and right branches
+
+-BinaryTree class that contains functions to create/modify BST
+
+-Main class (application) to run BST program
+
+To Run:
+
+javac (compile) all necessary classes first that are not main application
+
+> javac Main.java
+
+> java Main
+
+
+

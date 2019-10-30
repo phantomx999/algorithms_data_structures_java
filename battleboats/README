@@ -1,0 +1,101 @@
+README
+written by phantomx999
+
+
+BattlebBoats Game in Java
+
+Objective:
+Game is similar to battleship the board game, object is to sink all of the ships on 
+a "m x n" grid represented by 2D array (m and n can be any numbers from 3 to 12, inclusively).
+
+
+Rules and Set up:
+
+Enter 0 for debug mode, or 1 for regular mode 
+Debug shows where boats are, regular mode makes boats hidden.
+
+Next, enter m and n size board
+After user inputs board size via m and n dimensions UI, user can place "rocks" on board.
+
+Rocks prevent ships from being placed on same location as rock.  Rocks also draw a penalty
+of adding extra turn if user hits a rock location.
+
+Number of rocks can be 0 up to Min(m, n) - 2 rocks
+
+Enter "13" to be done placing rocks or continue to place rocks on board unti Min(m, n) - 2
+number of rocks is reached.
+
+Boats are then randomly placed on board based on random number generator
+
+Number of boats placed:
+Smallest Dimension 						Boat Quantity
+Width == 3 or height == 3 							1
+3 < width <= 5 or 3 < height <= 5 					2
+5 < width <= 7 or 5 < height <= 7 					3
+7 < width <= 9 or 7 < height <= 9 					4
+9 < width <= 12 or 9 < height <= 12 				6
+
+All boats are length 3 and are horizontal or vertical on board
+
+Example of 4 x 4 board below (debug mode):
+
+There are 2 boat(s) total on the board.
+
+Turn: 1		 Shots fired: 0		 Boats Remaining: 2
+DEBUG DISPLAY BOARD
+| 1 1 1 0  |    0
+| R 0 0 2  |    1
+| 0 0 0 2  |    2
+| 0 0 0 2  |    3
+--------------------------
+  0 1 2 3 
+     column  
+
+0 = ???    R = Rock   1 - 6 = Boats    M = Missed shot    X = hit!   S = Sunk
+
+Choose the column index to fire shot
+
+A shot that is out of bounds such as (-1, 2) or (3, 5) is a penalty and cost an extra turn
+
+Ships are numbered 1 to 6 total (in this example, 1 to 2).
+
+If a ship gets hit, it displays an X on board
+
+If a ship is sunk, it displays S for sunk
+
+Shots fired keeps track of all fired shots by user
+
+Game ends when all ships are sunk
+
+
+
+DESIGN:
+
+-BattleboatsBoard class that keeps track of the board played on
+
+-Boat class that keeps track of boat attributes
+
+-Game class that contains the game application (main) to be run..
+
+
+To Run:
+
+javac (compile) all necessary classes first that are not main application
+
+> javac Game.java
+
+> java Game
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+README
+//written by phantomx999
+
+
+ContactList using LinkedList implementation
+
+Contains contact list info of people.  List of people info is stored as nodes in linked list.
+
+Uses different functions to add, remove, sort, etc. to modify nodes in list.
+
+Also reads from a text file a person's info and adds it as node 
+to the current contact info linked list
+
+
+Finally, can write all contact nodes of linked list to a text file
+
+
+List of functions:
+add()
+find()
+remove()
+write()
+read()
+getCurrent()
+get()
+next()
+previous()
+sort()
+
+Has a time complexity analysis of contact list functions 
+
+
+DESIGN:
+-Contact class that contains person's information data
+
+-ContactNode class that contains node of person's info that is part of linked list
+
+-ContactLinkedList that contains the linked list and application (main)
+
+To RUN:
+
+javac (compile) all necessary classes first that are not main application
+
+>javac ContactLinkedList.java
+
+>java ContactLinkedList
