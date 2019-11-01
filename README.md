@@ -5,3 +5,5 @@
   2. Battleboats game
   3. Contact list using linked list
   4. Binary search tree BST creator/modifier
+
+Please refer to README in each project directory for more info for each, individual project
